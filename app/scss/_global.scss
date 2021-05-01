@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

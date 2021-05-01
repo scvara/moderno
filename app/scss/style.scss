@@ -1,11 +1,52 @@
-html{
-    box-sizing: border-box;
-}
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
-}
-body{
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+
+
+.header__top-inner{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 91px;
 }
+.header__text{
+    margin-left: auto;
+    color: #546e7a;
+    font-size: 15px;
+}
+.header__text-link{
+    color: $red;
+}
+.header__user-panel{
+    margin-left: 25px;
+}
+.header__top-btn{
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    min-width: 72px;
+    text-align: center;
+}
+.header__tel{
+    color: #546e7a;
+}
+.header__button-login{
+    background-color: $red;
+}
+.header__button-register{
+    background-color: $green;
+    margin-left: 7px;
+}
+.header__bottom{
+    background-color: $bg;
+    a{
+        color: #fff;  
+        font-size: 14px;
+        margin-right: 36px;
+    }
+}
+  
+
+
