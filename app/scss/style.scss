@@ -135,7 +135,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    line-height: 24px;
 }
 .product__item{
     max-width: 442px;
@@ -143,6 +142,7 @@
     box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
     margin-bottom: 30px;
     background-color: #fff;
+    line-height: 24px;
     &-img{
         min-height: 250px;
         background-position: center;
@@ -333,12 +333,15 @@
 // end advantages
 // start author
 .author{
-    background-image: url('../images/content/author-bg.jpg');
     padding: 250px 0px 288px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
 }
 .author__inner{
-    width: 653px;
-    height: 216px;
+    max-width: 653px;
+    min-height: 216px;
     display: flex;
     justify-content: space-between;
     align-items: center;
