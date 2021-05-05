@@ -330,9 +330,40 @@
         width: 80px;
     }
 }
-
 // end advantages
+// start author
+.author{
+    background-image: url('../images/content/author-bg.jpg');
+    padding: 250px 0px 288px;
+}
+.author__inner{
+    width: 653px;
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 20px 60px;
+    background-color: $green;
+    &-text{
+        display: inline-block;
+        font-size: 30px;
+        max-width: 270px;
+        color:#fff;
+        span{
+            @include f700;
+        }
+    }
+    a{
+        display: inline-block;
+        padding: 25px 43px;
+        background-color: #fff;
+        font-size: 18px;
+    }
+}
 
+
+// end author
 
 
 
