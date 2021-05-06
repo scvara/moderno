@@ -364,11 +364,41 @@
         font-size: 18px;
     }
 }
-
-
 // end author
+// start tutorial
 
+.tutorial{
+    background-color: #fff;
+    padding: 70px 0px 120px;
+    &__title{
+        margin-bottom: 55px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item{
+        max-width: 370px;
+        width: 100%;
+        text-align: center;
+        &-img{
+            min-height: 270px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-text{
+            font-size: 24px;
+            @include f700;
+            padding: 37px 10px 39px;
+            background-color: #f8f8f8;
+        }
+    }
 
+}
+
+// end tutorial
 
 
 
